@@ -1,0 +1,57 @@
+## Build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+## Logs
+*.log
+
+## OS generated
+.DS_Store
+Thumbs.db
+
+## User secrets
+secrets.json
+
+## Rider / VSCode
+.idea/
+.vscode/
+
+## Dependency folders
+node_modules/
+packages/
+.env
+
+## Publish output
+publish/
+wwwroot/dist/
+
+# -----------------------
+# Ek Öneriler
+# -----------------------
+
+# Visual Studio database & test files
+*.mdf
+*.ldf
+*.ndf
+TestResult*/ 
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
